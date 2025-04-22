@@ -1,0 +1,24 @@
+body {
+    background-color: #f9f6f2;
+    font-family: 'Arial', sans-serif;
+    color: #800000;
+    padding: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #800000;
+    font-weight: bold;
+  }
+  
+  h1 {
+    color: #800000;
+  }
+  
+  div.section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }

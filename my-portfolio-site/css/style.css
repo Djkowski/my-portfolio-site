@@ -1,0 +1,73 @@
+
+/* Hero Section Styling */
+header {
+    display: flex;  /* Use flexbox for layout */
+    justify-content: space-between;  /* Space out the text and image */
+    align-items: center;  /* Vertically align the content */
+    padding: 50px;  /* Adjust the padding as needed */
+  }
+  
+  /* Image Styling */
+  .hero-image {
+    width: 100px !important;  /* Set a smaller size for the image */
+    height: auto !important;  /* Maintain the aspect ratio */
+    max-width: 100%; 
+    border-radius: 50% !important;  /* Optional: Make the image circular */
+  }
+  /* Wordle Game */
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.game-container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    grid-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.grid div {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f4f4f4;
+}
